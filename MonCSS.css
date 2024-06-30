@@ -1,11 +1,14 @@
+*{
+    overflow: auto;
+    }
 body{
             background-color: #8BA1BB;
             font-family: Arial;
             }
 div.contenu{
             background-color: white;
-            margin: 20px 20px 20px 20px;
-            padding: 0px;
+            margin: 40px 8px 40px 8px;
+            padding: 0px 8px 20px 8px;
             box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1)
             }
 h1.categorie{
@@ -17,10 +20,10 @@ h1.categorie{
            /* padding: 0px 0px;*/
             }
 h1.description{
-            width: 50%;
+            /*width: 50%;*/
             text-align: center;
-            max-width: 400px;
-            display: inline-block;
+            /*max-width: 400px;*/
+            /*display: inline-block;*/
             }
 div.center{
             display: flex;
@@ -83,7 +86,23 @@ table.preparation td.preparation-etape{
  table.preparation tr{
                       height: 40px;
                         }
+div.image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+p.description{
+            text-align: center;
+            }
+div.table{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             }
+/* Styles pour ordinateurs */
+@media only screen and (min-width: 768px) {
+          div.contenu{
+                    min-width: 350px;
+                    }
 
-* {
-    overflow: auto;
-    }
+}
