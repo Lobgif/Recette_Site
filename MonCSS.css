@@ -1,0 +1,89 @@
+body{
+            background-color: #8BA1BB;
+            font-family: Arial;
+            }
+div.contenu{
+            background-color: white;
+            margin: 20px 20px 20px 20px;
+            padding: 0px;
+            box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1)
+            }
+h1.categorie{
+            background-color: black;
+            color: white;
+           /* width: 50%;*/
+            margin-top: 0px;
+            display: inline-block;
+           /* padding: 0px 0px;*/
+            }
+h1.description{
+            width: 50%;
+            text-align: center;
+            max-width: 400px;
+            display: inline-block;
+            }
+div.center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+.colonne1, .colonne2{
+                    width: 45%
+                    }
+div.colonne1{
+            float: left;
+            display: inline-block;
+
+
+            }
+div.colonne2{
+            float: right;
+            }
+h2.ingredient, h2.preparation{
+            border-bottom: 5px solid black;
+            padding: 10px;
+            text-align: center;
+            }
+
+div.colonne1 p{
+            border: 1px solid lightgray;
+            display: flex;
+            white-space: nowrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            padding: 4px 0px;
+            margin-top: 4px;
+            margin-bottom: 0px;
+            /*width: fit-content;*/
+            }
+table.preparation p.numero{
+            font-size: 14px;
+            background-color: #6C8290;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            text-align: center;
+            font-width: bold;
+            padding-top: 4px;
+            margin: 0px;
+            }
+
+table.preparation td{
+            vertical-align: top;
+            }
+
+table.preparation td.preparation-etape{
+            font-size: 14px;
+            padding-left: 10px;
+            }
+
+ table.preparation tr{
+                      height: 40px;
+                        }
+
+* {
+    overflow: auto;
+    }
